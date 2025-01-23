@@ -32,13 +32,14 @@ import math
 
 # ### Exercise - Demo
 # Write a python function that takes 2 numbers `num1` and `num2` and returns the addition.
+def add_numbers(num1 + num2)
 
-# In[ ]:
+# In[]
 
 
 # 👨🏻‍💻 Fix the code below so it returns the correct output.
 def simple_add(num1, num2):
-    return 0
+    return num1 + num2
 
 
 # In[ ]:
