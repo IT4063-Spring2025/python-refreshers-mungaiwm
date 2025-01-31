@@ -95,29 +95,29 @@ PYDEVD_DISABLE_FILE_VALIDATION=1 JUPYTER_PLATFORM_DIRS=1 pytest --capture=sys
 ---------------
 ## 💭 Reflection and Self Assessment
 
-**I learned:** (repeat as needed)
+**I learned:** just to list a few out of many things I leant as I was doing this assignment I leant:- how to determine if a year is a leap year using Python conditions, how to use the math library to get the value of π, how to create a NumPy array with evenly spaced intervals in one line and how to concatenate two NumPy string arrays using numpy.char.add().
 - .
 
-**I struggled with:** (repeat as needed)
+**I struggled with:** Understanding the difference between numpy.concatenate() and numpy.char.add().
 - .
 
-**I need the instructor to help me with:** (repeat as needed)
+**I need the instructor to help me with:** Best practices for writing python code efficiently.
 - .
 
 **How long did it take you to complete this assignment? and reflect on that**
-[ ] hours.
+[2] hours.
 
-**If I were to do this assignment again, I would:** (repeat as needed)
+**If I were to do this assignment again, I would:** use list comprehensions where possible to make the code shorter and Try writing the functions in different ways to improve efficiency.
 - .
 
-**💯 Self Grade:** For this assignment, based on my work and my reflections I should get [ ] out of 20.
+**💯 Self Grade:** For this assignment, based on my work and my reflections I should get [20 ] out of 20.
 
 --------------------
 ## 📚 References and Citations
-**I used the following links, books, and other resources in my work:** (repeat as needed)
-- .
+**I used the following links, books, and other resources in my work:** Documentation links provided
+- 
   
-**I received help from the following people:** (repeat as needed)
+**I received help from the following people:** Documentation links and Copilot Ai
 - . 
 
 ---
