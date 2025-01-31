@@ -32,13 +32,17 @@ import math
 
 # ### Exercise - Demo
 # Write a python function that takes 2 numbers `num1` and `num2` and returns the addition.
+# 👨🏻‍💻 Fix the code below so it returns the correct output.
+def simple_add(num1, num2):
+    return num1 + num2
 
-# In[ ]:
+
+# In[]
 
 
 # 👨🏻‍💻 Fix the code below so it returns the correct output.
 def simple_add(num1, num2):
-    return 0
+    return num1 + num2
 
 
 # In[ ]:
@@ -59,7 +63,7 @@ print("✅ worked correctly")
 
 
 # 👨🏻‍💻 Fix the code below so it returns the correct output.
-def is_even_or_odd(num):
+def is_even_or_odd(num): num
     return "even or odd"
 
 
@@ -86,7 +90,16 @@ else:
 # write a python function that, given a year,:
 # - returns the boolean value `True` if the year is a leap year
 # - returns the boolean value `False` if it's not a leap year
-# 
+# def is_leap_year(year):
+    
+    def is_leap_year(year):
+     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
+    else:
+        return False
+
+# Output will be True since 2024 is a leap year
+
 # Here's the criteria for a leap year:
 # - If a year is evenly divisible by 4 means having no remainder, then go to the next step. If it is not divisible by 4, it is a common year.
 # - If a year is divisible by 4 but not by 100, then it is a leap year. If a year is divisible by both 4 and 100, go to the next step.
